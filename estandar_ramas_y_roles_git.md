@@ -1,12 +1,13 @@
 ![Intelix Logo](http://cs.intelix.biz/logo/pic.png)
 
-#Perfiles, ramas y versionamiento para proyectos
-####<center>v-1.0.1</center>
+# Perfiles, ramas y versionamiento para proyectos
+
+<center>v-1.0.1</center>
 ---
 
 Este documento describe el estandar para el marco de trabajo de nuestro control de versiones.
 
-- ####Roles
+*  Roles
 
 Esta matríz de rolers ha sido realizada con base a la documentación oficial de git, implementando el esquema de trabajo git flow y adaptada a Intelix
 
@@ -21,9 +22,9 @@ Se describen los siguientes roles
 ![Perfiles](/home/malvarado/Escritorio/Cuadro_perfiles.png)
 
 <br/>
----
+___
 
-- ####Ramas
+*  Ramas
 
 Se manejarán 3 ramas principales:
 
@@ -39,7 +40,7 @@ Las ramas temporales serán limpiadas y eliminadas bajo jornadas de mantenimient
 <br/>
 ___ 
 
-- ####Versionamiento
+*  Versionamiento
 
  
 El formato de versión para las etiquetas a implementar será en basado en 3 dígitos, de la siquiente forma:
@@ -63,7 +64,7 @@ Procedimiento para el cambio de cada dígito de versión.
 <br/>
 ___ 
 
-- ####Estructura
+*  Estructura
 
  
 
