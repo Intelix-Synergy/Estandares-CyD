@@ -3,6 +3,7 @@
 # Perfiles, ramas y versionamiento para proyectos
 
 *v-1.0.1*
+
 ___
 
 Este documento describe el estandar para el marco de trabajo de nuestro control de versiones.
@@ -21,6 +22,7 @@ Se describen los siguientes roles
 ![Perfiles](Cuadro_perfiles.png)
 
 <br/>
+
 ___
 
 *  Ramas
@@ -37,6 +39,7 @@ El resto de ramas son catalogadas como temporales y permitidas : **features, hot
 Las ramas temporales serán limpiadas y eliminadas bajo jornadas de mantenimiento sin previo aviso y no serán consideradas ramas finales a efectos de despliegues a ambientes de calidad o producción.
 
 <br/>
+
 ___ 
 
 *  Versionamiento
@@ -58,6 +61,7 @@ Procedimiento para el cambio de cada dígito de versión.
     **Revisión o Z**, en Intelix usado para llevar el control de la cantidad de defectos que se corrigieron en la versión.
 
 <br/>
+
 ___ 
 
 *  Estructura
