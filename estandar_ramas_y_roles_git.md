@@ -2,8 +2,7 @@
 
 # Perfiles, ramas y versionamiento para proyectos
 
-<center>v-1.0.1</center>
-
+*v-1.0.1*
 ___
 
 Este documento describe el estandar para el marco de trabajo de nuestro control de versiones.
@@ -22,17 +21,15 @@ Se describen los siguientes roles
 ![Perfiles](Cuadro_perfiles.png)
 
 <br/>
-
 ___
 
 *  Ramas
 
 Se manejarán 3 ramas principales:
 
-
-    **Master (protegida)** : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
-    **Releases (protegida) **: será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
-    **Develop (protegida) **: será la rama que contrendrá la línea de desarrollo actual del proyecto.
+* [ ] Master (protegida) : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
+* [ ] Releases (protegida) : será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
+* [ ] Develop (protegida) : será la rama que contrendrá la línea de desarrollo actual del proyecto.
 
 
 El resto de ramas son catalogadas como temporales y permitidas : **features, hotfix, support, etc**
@@ -40,12 +37,12 @@ El resto de ramas son catalogadas como temporales y permitidas : **features, hot
 Las ramas temporales serán limpiadas y eliminadas bajo jornadas de mantenimiento sin previo aviso y no serán consideradas ramas finales a efectos de despliegues a ambientes de calidad o producción.
 
 <br/>
-
 ___ 
 
 *  Versionamiento
 
 El formato de versión para las etiquetas a implementar será en basado en 3 dígitos, de la siquiente forma:
+
     **Producción** : v-X.Y.Z
     **Calidad** : v-X.Y.Z-snapshot
     **Desarrollo** : v-X.Y.Z-unstable
@@ -63,7 +60,6 @@ Procedimiento para el cambio de cada dígito de versión.
     **Revisión o Z**, en Intelix usado para llevar el control de la cantidad de defectos que se corrigieron en la versión.
 
 <br/>
-
 ___ 
 
 *  Estructura
