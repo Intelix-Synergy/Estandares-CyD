@@ -13,10 +13,10 @@ Esta matríz de rolers ha sido realizada con base a la documentación oficial de
 
 Se describen los siguientes roles
 
-    **admin / owner** -> rol para el líder de aplicaciones del área y administradores de repositorio
-    **mantainer** -> rol para el líder técnico del proyecto
-    **developer** -> rol para los desarrolladores del proyecto
-    **guest / reporter** -> rol para el líder de proyecto con la finalidad que permita la creación de defectos
+    **admin / owner** -> rol para el líder de aplicaciones del área y administradores de repositorio.
+    **mantainer** -> rol para el líder técnico del proyecto.
+    **developer** -> rol para los desarrolladores del proyecto.
+    **guest / reporter** -> rol para el líder de proyecto con la finalidad que permita la creación de defectos.
 
 ![Perfiles](Cuadro_perfiles.png)
 
@@ -27,9 +27,9 @@ ___
 
 Se manejarán 3 ramas principales:
 
-* [ ] Master (protegida) : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
-* [ ] Releases (protegida) : será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
-* [ ] Develop (protegida) : será la rama que contrendrá la línea de desarrollo actual del proyecto.
+    **Master (protegida)** : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
+    **Releases (protegida)** : será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
+    **Develop (protegida)** : será la rama que contrendrá la línea de desarrollo actual del proyecto.
 
 
 El resto de ramas son catalogadas como temporales y permitidas : **features, hotfix, support, etc**
@@ -47,11 +47,9 @@ El formato de versión para las etiquetas a implementar será en basado en 3 dí
     **Calidad** : v-X.Y.Z-snapshot
     **Desarrollo** : v-X.Y.Z-unstable
 
-
     **El primero (X)** se le conoce como versión mayor y nos indica la versión principal del software. Ejemplo: 1.0.0, 3.0.0
     **El segundo (Y)** se le conoce como versión menor y nos indica nuevas funcionalidades. Ejemplo: 1.2.0, 3.3.0
     **El tercero (Z)** se le conoce como revisión y nos indica que se hizo una revisión del código por algun fallo. Ejemplo: 1.2.2, 3.3.4
-
  
 Procedimiento para el cambio de cada dígito de versión.
 
