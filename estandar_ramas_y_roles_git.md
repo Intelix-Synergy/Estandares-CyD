@@ -3,7 +3,8 @@
 # Perfiles, ramas y versionamiento para proyectos
 
 <center>v-1.0.1</center>
----
+
+___
 
 Este documento describe el estandar para el marco de trabajo de nuestro control de versiones.
 
@@ -13,11 +14,10 @@ Esta matríz de rolers ha sido realizada con base a la documentación oficial de
 
 Se describen los siguientes roles
 
-
-    admin / owner -> rol para el líder de aplicaciones del área y administradores de repositorio
-    mantainer -> rol para el líder técnico del proyecto
-    developer -> rol para los desarrolladores del proyecto
-    guest / reporter -> rol para el líder de proyecto con la finalidad que permita la creación de defectos
+**admin / owner** -> rol para el líder de aplicaciones del área y administradores de repositorio
+**mantainer** -> rol para el líder técnico del proyecto
+**developer** -> rol para los desarrolladores del proyecto
+**guest / reporter** -> rol para el líder de proyecto con la finalidad que permita la creación de defectos
 
 ![Perfiles](/home/malvarado/Escritorio/Cuadro_perfiles.png)
 
@@ -29,9 +29,10 @@ ___
 Se manejarán 3 ramas principales:
 
 
-**Master (protegida)** : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
-**Releases (protegida) **: será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
+**Master (protegida)** : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.<br/>
+**Releases (protegida) **: será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.<br/>
 **Develop (protegida) **: será la rama que contrendrá la línea de desarrollo actual del proyecto.
+
 
 El resto de ramas son catalogadas como temporales y permitidas : **features, hotfix, support, etc**
 
@@ -49,28 +50,25 @@ El formato de versión para las etiquetas a implementar será en basado en 3 dí
 **Desarrollo** : v-X.Y.Z-unstable
 
 
-    El primero (X) se le conoce como versión mayor y nos indica la versión principal del software. Ejemplo: 1.0.0, 3.0.0
-    El segundo (Y) se le conoce como versión menor y nos indica nuevas funcionalidades. Ejemplo: 1.2.0, 3.3.0
-    El tercero (Z) se le conoce como revisión y nos indica que se hizo una revisión del código por algun fallo. Ejemplo: 1.2.2, 3.3.4
+**El primero (X)** se le conoce como versión mayor y nos indica la versión principal del software. Ejemplo: 1.0.0, 3.0.0
+**El segundo (Y)** se le conoce como versión menor y nos indica nuevas funcionalidades. Ejemplo: 1.2.0, 3.3.0
+**El tercero (Z)** se le conoce como revisión y nos indica que se hizo una revisión del código por algun fallo. Ejemplo: 1.2.2, 3.3.4
 
  
-
 Procedimiento para el cambio de cada dígito de versión.
 
-    Versión mayor o X, cuando agreguemos nuevas funcionalidades importantes, puede ser como un nuevo modulo o característica clave para la funcionalidad.
-    Versión menor o Y, en Intelix este dígito no es un incremental 1 + 1, en su lugar será un indicativo de las cantidades de nuevas funcionalidades incorporadas en cada versión.
-    Revisión o Z, en Intelix usado para llevar el control de la cantidad de defectos que se corrigieron en la versión.
+**Versión mayor o X**, cuando agreguemos nuevas funcionalidades importantes, puede ser como un nuevo modulo o característica clave para la funcionalidad.
+**Versión menor o Y**, en Intelix este dígito no es un incremental 1 + 1, en su lugar será un indicativo de las cantidades de nuevas funcionalidades incorporadas en cada versión.
+**Revisión o Z**, en Intelix usado para llevar el control de la cantidad de defectos que se corrigieron en la versión.
 
 <br/>
 ___ 
 
 *  Estructura
 
- 
 
 La estructura de los proyectos, grupos, etc dentro de nuestro esquema de control de versiones tendrá 2 grandes ramas según la plataforma que hoy manejamos y será de la siguiente manera:
 
- 
 
 **Aplicaciones RPG**
 
