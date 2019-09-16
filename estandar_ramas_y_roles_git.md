@@ -8,7 +8,7 @@ ___
 
 Este documento describe el estandar para el marco de trabajo de nuestro control de versiones.
 
-***  Roles**
+#### Roles
 
 Esta matríz de rolers ha sido realizada con base a la documentación oficial de git, implementando el esquema de trabajo git flow y adaptada a Intelix
 
@@ -25,7 +25,7 @@ Se describen los siguientes roles
 
 ___
 
-***  Ramas**
+*  Ramas
 
 Se manejarán 3 ramas principales:
 
@@ -42,7 +42,7 @@ Las ramas temporales serán limpiadas y eliminadas bajo jornadas de mantenimient
 
 ___ 
 
-***  Versionamiento**
+*  Versionamiento
 
 El formato de versión para las etiquetas a implementar será en basado en 3 dígitos, de la siquiente forma:
 
@@ -64,7 +64,7 @@ Procedimiento para el cambio de cada dígito de versión.
 
 ___ 
 
-***  Estructura**
+*  Estructura
 
 La estructura de los proyectos, grupos, etc dentro de nuestro esquema de control de versiones tendrá 2 grandes ramas según la plataforma que hoy manejamos y será de la siguiente manera:
 
