@@ -30,7 +30,7 @@ ___
 Se manejarán 3 ramas principales:
 
     **Master (protegida)** : será la rama principal la cual contendrá las etiquetas con las versiónes estables y desplegadas en producción.
-    **Releases (protegida)** : será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
+    **Release (protegida)** : será la rama que contendrá las etiquetas con las versiones que se encuentran en fase de certificación, copia de master con las integraciones o mezclas de código provenientes de desarrollo.
     **Develop (protegida)** : será la rama que contrendrá la línea de desarrollo actual del proyecto.
 
 
